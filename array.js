@@ -60,3 +60,18 @@ let newArray = nums.map((val) => {
     return val+5;
 });
 console.log(newArray);
+
+
+// Filter in Array
+newArray = arr.filter((val) => {
+    return val%2 === 0;
+});
+console.log(newArray);
+
+
+// reduce in Array
+let add = [1, 2, 3, 4];
+const output = add.reduce((res, curr) => {
+    return res + curr;
+});
+console.log(output);
