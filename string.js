@@ -35,10 +35,13 @@ console.log("After Slicing : ", numStr.slice(3,7));
 
 let str1 = "Dhyanesh";
 console.log("String 1 : ", str1);
+
 let str2 = "Dharmik";
 console.log("String 2 : ", str2);
+
 let result1 = str1.concat(str2);
 console.log("New String : ", result1);
+
 let result2 = str2.concat(str1);
 console.log("New String : ", result2);
 
