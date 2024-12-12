@@ -18,7 +18,7 @@ for(let hero of heroes) {
 }
 
 // str.push()
-heroes.push("Antman", "Wolverine");
+heroes.push("Antman", "Ironman");
 console.log(heroes);
 
 //str.pop()
